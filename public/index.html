@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="photoStore">
 <head>
 	<link rel="stylesheet" href="./stylesheets/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script type="text/javascript" src="./javascripts/app.js"></script>
 </head>
 
 <title>Photos By J.A.C.</title>
 
 <body>
-	<h1>Welcome to Photos By J.A.C.</h1>
 
-	<p>Website is currently under development. Please check back soon!</p>
+	<nav-bar></nav-bar>
 
+
+	<div id="home" ng-show="tab.isSet(1)">
+		<h1>Photos By J.A.C.</h1>
+	</div>
+	<div id="gallery" ng-show="tab.isSet(2)">
+		<h4>Gallery</h4>
+		<photo-gallery></photo-gallery>
+	</div>
+	<div id="aboutMe" ng-show="tab.isSet(3)">
+		<h4>About Me</h4>
+	</div>
+	<div id="Contact" ng-show="tab.isSet(4)">
+		<h4>Contact</h4>
+	</div>
+
+	<div id="footer">
+		© 2015 Photos By J.A.C.
+	</div>
 </body>
 
 </html>
