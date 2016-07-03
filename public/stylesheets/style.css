@@ -47,7 +47,6 @@ nav-bar ul li a:hover{
 	color: orange;
 }
 
-
 /*
 ======================================
 ========= Home Page Styling ==========
@@ -67,6 +66,68 @@ nav-bar ul li a:hover{
 	vertical-align: middle;
 	line-height: normal;  
 	background-color: red;
+}
+
+/*
+======================================
+========== Gallery Styling ===========
+======================================
+*/
+
+photo-gallery{
+	/*background-image: url("/website_backgrounds/black_background2.jpg");*/
+	display: inline-block;
+	text-align: center
+}
+
+photo-gallery h2{
+	border-bottom: 2px solid black;
+	margin: 20px 200px 20px 200px;
+}
+
+photo-gallery photo{
+	display: inline-block;
+	margin: 10px;
+}
+
+photo-gallery photo img{
+	border: 5px gray solid;
+}
+
+photo-gallery photo img:hover{
+	border: 5px gray solid;
+	opacity: .2;
+	cursor: pointer;
+}
+
+/*
+======================================
+========= About Me Styling ===========
+======================================
+*/
+
+#about_me{
+	text-align: center;
+}
+
+#about_me h2{
+	border-bottom: 2px solid black;
+	margin: 20px 200px 20px 200px;
+}
+
+/*
+======================================
+========== Contact Styling ===========
+======================================
+*/
+
+#contact{
+	text-align: center;
+}
+
+#contact h2{
+	border-bottom: 2px solid black;
+	margin: 20px 200px 20px 200px;
 }
 
 /*
