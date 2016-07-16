@@ -54,18 +54,18 @@ nav-bar ul li a:hover{
 */
 
 #home{
-	margin-top: -58px;
-	height: 600px;
-	line-height: 600px;
 	text-align: center;
 	/*background-color: blue;*/
 }
 
 #home h1{
-	display: inline-block;
+	color: white;
 	vertical-align: middle;
-	line-height: normal;  
 	background-color: red;
+	margin-top: -58px;
+	height: 600px;
+	line-height: 600px;
+	background-image: url("/website_backgrounds/JessicaACusick_1_nomark.JPG");
 }
 
 /*
