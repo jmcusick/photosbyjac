@@ -17,6 +17,20 @@
 	<div id="home" ng-show="tab.isSet(1)">
 		<!-- ADD DIV HERE -->
 		<h1>Photos By J.A.C.</h1>
+
+		<div>
+			<div>
+				<h3>Jessica Ashley Cusick</h3>
+				<h3>Photographer</h3>
+			</div>
+			<div style="background-color:blue">
+				<h3>My Work</h3>
+				<p>I'm a PhD Candidate who has a knack for beautiful photography</p>
+				<p>All photos are for sold in a variety of prints and frames starting at $15. Please use the contact me feature to order (Website cart on the way!)</p> 
+				<a ng-click="tab.setTab(2)" style="background-color:red">Gallery</a>
+				<a ng-click="tab.setTab(3)" style="background-color:red">About Me</a>
+			</div>
+		</div>
 	</div>
 	<div id="gallery" ng-show="tab.isSet(2)">
 		<photo-gallery></photo-gallery>
@@ -26,6 +40,12 @@
 	</div>
 	<div id="contact" ng-show="tab.isSet(4)">
 		<h2>Contact</h2>
+		<form>
+			Email:	
+			<input type="email" placeholder="Please enter your email"></input>
+			<br>
+			
+		</form>
 	</div>
 
 	<div id="footer">

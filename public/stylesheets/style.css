@@ -61,7 +61,7 @@ nav-bar ul li a:hover{
 #home h1{
 	color: white;
 	vertical-align: middle;
-	background-color: red;
+	/*background-color: red;*/
 	margin-top: -58px;
 	height: 600px;
 	line-height: 600px;
@@ -132,7 +132,7 @@ photo-gallery photo img:hover{
 
 /*
 ======================================
-========== Footing Styling ===========
+========== Footer Styling ===========
 ======================================
 */
 
