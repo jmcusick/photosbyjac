@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<title>Runescape Quest Checklist</title>
+
+<body>
+	<h1 style="text-align:center">Runescape Quest Checklist</h1>
+
+	<form>
+
+	  <input type="checkbox" checked>Test<br>
+	  
+
+	</form>
+
+</body>
+
+</html>
